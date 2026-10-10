@@ -44,8 +44,8 @@ Welcome to the definitive, SEO-optimized directory of **API management platforms
 - [🏢 Commercial & SaaS Integration Platforms](#-commercial--saas-integration-platforms)
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🛠️ How to Contribute](#%EF%B8%8F-how-to-contribute)
-- [📊 Star History](#-star-history)
 - [🤝 Support & Sponsorship](#-support--sponsorship)
+- [📊 Star History](#-star-history)
 - [⚠️ Disclaimer & Technical Notes](#%EF%B8%8F-disclaimer--technical-notes)
 
 ---
@@ -144,19 +144,19 @@ Contributions are actively welcomed! Follow these simple steps to submit new API
 
 ---
 
-## 📊 Star History
+## 🤝 Support & Sponsorship 💖
 
-[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-API-Microservices-Integration&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-API-Microservices-Integration&type=date&legend=top-left)
+Thank you for visiting and supporting this project! If this curated directory has helped you evaluate, build, or deploy API gateways, microservices integration architectures, and open-source iPaaS software, please consider supporting ongoing open-source curation:
+
+- ⭐ **Star** this repository on GitHub to increase visibility!
+- 🔀 **Fork** and share with fellow developers, integration engineers, and platform teams.
+- ☕ **Buy Me a Coffee / Sponsor**: Support ongoing maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
-## 🤝 Support & Sponsorship 💖
+## Star History
 
-If this curated directory helps your team select the right API gateway or integration platform:
-
-- ⭐ **Star** this repo on GitHub to boost visibility!
-- 🔀 **Fork** and share with integration engineers, platform teams, and open-source advocates.
-- ☕ **Sponsor**: Support ongoing open-source research and maintenance via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-API-Microservices-Integration&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-API-Microservices-Integration&type=date&legend=top-left)
 
 ---
 
