@@ -72,7 +72,7 @@ Welcome to the definitive, SEO-optimized directory of **API management platforms
 
 ## 🔓 Open-Source GitHub Projects
 
-*Sorted by GitHub Stars_Count (Descending)* 🌟
+*Sorted by GitHub_Stars_Count (Descending)* 🌟
 
 - **[n8n](https://github.com/n8n-io/n8n)** [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
   **Fair-code workflow automation and open-source iPaaS platform**, Sustainable Use License. **206,890+ GitHub_Stars** — **the most popular open-source workflow automation engine**. **400+ native integrations**, visual node-based editor, custom JavaScript/Python code execution, AI Agent nodes, LangChain support, and self-hosted privacy compliance. 🧩
@@ -139,7 +139,7 @@ Contributions are actively welcomed! Follow these simple steps to submit new API
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add/edit** entries in `README.md` keeping formatting, Stars_Count badges, and tabular structure intact.
-3. 🔗 Include official project links, exact GitHub Stars_Count link (`stargazers`), license, and verified pricing/free tier limits.
+3. 🔗 Include official project links, exact GitHub_Stars_Count link (`stargazers`), license, and verified pricing/free tier limits.
 4. 🚀 Open a **Pull Request** detailing your additions!
 
 ---
