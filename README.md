@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-API-Microservices-Integration"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-API-Microservices-Integration?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Microservices-Integration"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-API-Microservices-Integration?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-API-Microservices-Integration/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-API-Microservices-Integration?style=social" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-API-Microservices-Integration/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-API-Microservices-Integration?color=blue" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -72,64 +72,64 @@ Welcome to the definitive, SEO-optimized directory of **API management platforms
 
 ## 🔓 Open-Source GitHub Projects
 
-*Sorted by GitHub Star Count (Descending)* 🌟
+*Sorted by GitHub Stars_Count (Descending)* 🌟
 
 - **[n8n](https://github.com/n8n-io/n8n)** [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
-  **Fair-code workflow automation and open-source iPaaS platform**, Sustainable Use License. **206,890+ GitHub stars** — **the most popular open-source workflow automation engine**. **400+ native integrations**, visual node-based editor, custom JavaScript/Python code execution, AI Agent nodes, LangChain support, and self-hosted privacy compliance. 🧩
+  **Fair-code workflow automation and open-source iPaaS platform**, Sustainable Use License. **206,890+ GitHub_Stars** — **the most popular open-source workflow automation engine**. **400+ native integrations**, visual node-based editor, custom JavaScript/Python code execution, AI Agent nodes, LangChain support, and self-hosted privacy compliance. 🧩
 
 - **[Caddy Server](https://github.com/caddyserver/caddy)** [![Stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)  
-  **Fast, multi-platform open-source web server & API reverse proxy with automatic HTTPS**, Apache-2.0 licensed. **77,673+ GitHub stars**. Written in Go with zero external dependencies, automatic Let's Encrypt TLS cert management, dynamic HTTP/3 support, and JSON/Caddyfile configuration. 🔒
+  **Fast, multi-platform open-source web server & API reverse proxy with automatic HTTPS**, Apache-2.0 licensed. **77,673+ GitHub_Stars**. Written in Go with zero external dependencies, automatic Let's Encrypt TLS cert management, dynamic HTTP/3 support, and JSON/Caddyfile configuration. 🔒
 
 - **[Traefik](https://github.com/traefik/traefik)** [![Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
-  **Cloud-native edge router and application proxy**, MIT licensed. **65,140+ GitHub stars**. Auto-discovers microservice backends (Kubernetes, Docker, Swarm, Consul), dynamic certificate management via Let's Encrypt ACME, middleware rate-limiting, and circuit breakers. 🚦
+  **Cloud-native edge router and application proxy**, MIT licensed. **65,140+ GitHub_Stars**. Auto-discovers microservice backends (Kubernetes, Docker, Swarm, Consul), dynamic certificate management via Let's Encrypt ACME, middleware rate-limiting, and circuit breakers. 🚦
 
 - **[Huginn](https://github.com/huginn/huginn)** [![Stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers)  
-  **Open-source agentic event-driven workflow automation system**, MIT licensed. **50,034+ GitHub stars**. Creates automated web-scraping agents, webhook listeners, data transformation pipelines, and scheduled event triggers running on custom servers. 🤖
+  **Open-source agentic event-driven workflow automation system**, MIT licensed. **50,034+ GitHub_Stars**. Creates automated web-scraping agents, webhook listeners, data transformation pipelines, and scheduled event triggers running on custom servers. 🤖
 
 - **[Kong Gateway](https://github.com/Kong/kong)** [![Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)  
-  **The cloud-native API gateway leader**, Apache-2.0 licensed core. **44,258+ GitHub stars**. Built on OpenResty/NGINX with Lua plugins, declarative DB-less or PostgreSQL persistent configuration, rate limiting, authentication plugins, and gRPC routing. 🦍
+  **The cloud-native API gateway leader**, Apache-2.0 licensed core. **44,258+ GitHub_Stars**. Built on OpenResty/NGINX with Lua plugins, declarative DB-less or PostgreSQL persistent configuration, rate limiting, authentication plugins, and gRPC routing. 🦍
 
 - **[Istio](https://github.com/istio/istio)** [![Stars](https://img.shields.io/github/stars/istio/istio?style=social&color=white)](https://github.com/istio/istio/stargazers)  
-  **Industry-standard open-source service mesh**, Apache-2.0 licensed CNCF graduated project. **38,429+ GitHub stars**. Manages microservice-to-microservice traffic, mTLS encryption, zero-trust security policies, telemetry, and Envoy proxy data plane orchestration. 🕸️
+  **Industry-standard open-source service mesh**, Apache-2.0 licensed CNCF graduated project. **38,429+ GitHub_Stars**. Manages microservice-to-microservice traffic, mTLS encryption, zero-trust security policies, telemetry, and Envoy proxy data plane orchestration. 🕸️
 
 - **[Envoy Proxy](https://github.com/envoyproxy/envoy)** [![Stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)  
-  **High-performance C++ edge/middle/service proxy**, Apache-2.0 licensed CNCF graduated project. **29,056+ GitHub stars**. The foundational data plane for Istio, kgateway, and modern cloud-native service meshes with xDS dynamic API control plane. 🔷
+  **High-performance C++ edge/middle/service proxy**, Apache-2.0 licensed CNCF graduated project. **29,056+ GitHub_Stars**. The foundational data plane for Istio, kgateway, and modern cloud-native service meshes with xDS dynamic API control plane. 🔷
 
 - **[Dapr](https://github.com/dapr/dapr)** [![Stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers)  
-  **Distributed Application Runtime for microservices**, Apache-2.0 licensed CNCF project. **26,136+ GitHub stars**. Provides event-driven pub/sub messaging, state management, service invocation building blocks, and actor framework for polyglot microservices. ⚡
+  **Distributed Application Runtime for microservices**, Apache-2.0 licensed CNCF project. **26,136+ GitHub_Stars**. Provides event-driven pub/sub messaging, state management, service invocation building blocks, and actor framework for polyglot microservices. ⚡
 
 - **[Activepieces](https://github.com/activepieces/activepieces)** [![Stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)  
-  **Open-source AI-first automation platform & Zapier alternative**, MIT licensed. **24,975+ GitHub stars**. 700+ app connectors, AI Agent builder, MCP tool support for Claude/Cursor, NPM custom code execution, and self-hosted unlimited executions for $0. 🧩
+  **Open-source AI-first automation platform & Zapier alternative**, MIT licensed. **24,975+ GitHub_Stars**. 700+ app connectors, AI Agent builder, MCP tool support for Claude/Cursor, NPM custom code execution, and self-hosted unlimited executions for $0. 🧩
 
 - **[Node-RED](https://github.com/node-red/node-red)** [![Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)  
-  **Low-code event-driven integration tool**, Apache-2.0 licensed OpenJS Foundation project. **23,731+ GitHub stars**. Browser-based flow editor for wiring APIs, IoT devices, microservice webhooks, and enterprise data streams. 🔴
+  **Low-code event-driven integration tool**, Apache-2.0 licensed OpenJS Foundation project. **23,731+ GitHub_Stars**. Browser-based flow editor for wiring APIs, IoT devices, microservice webhooks, and enterprise data streams. 🔴
 
 - **[Apache APISIX](https://github.com/apache/apisix)** [![Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)  
-  **Dynamic, high-performance API Gateway and AI Gateway**, Apache-2.0 licensed. **17,210+ GitHub stars**. Built on NGINX + LuaJIT with etcd dynamic clustering, 100+ native plugins, OIDC authentication, rate limiting, and native Model Context Protocol (MCP) support. 🚀
+  **Dynamic, high-performance API Gateway and AI Gateway**, Apache-2.0 licensed. **17,210+ GitHub_Stars**. Built on NGINX + LuaJIT with etcd dynamic clustering, 100+ native plugins, OIDC authentication, rate limiting, and native Model Context Protocol (MCP) support. 🚀
 
 - **[Tyk Gateway](https://github.com/TykTechnologies/tyk)** [![Stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers)  
-  **Open-source enterprise API gateway**, MPL-2.0 copyleft licensed. **10,857+ GitHub stars** with over 5M+ DockerHub pulls. Written in Go supporting REST, GraphQL, gRPC, and custom middleware without vendor lock-in. 🎯
+  **Open-source enterprise API gateway**, MPL-2.0 copyleft licensed. **10,857+ GitHub_Stars** with over 5M+ DockerHub pulls. Written in Go supporting REST, GraphQL, gRPC, and custom middleware without vendor lock-in. 🎯
 
 - **[Redpanda Connect (Benthos)](https://github.com/redpanda-data/connect)** [![Stars](https://img.shields.io/github/stars/redpanda-data/connect?style=social&color=white)](https://github.com/redpanda-data/connect/stargazers)  
-  **High-performance stream processor and microservice integration tool**, Apache-2.0 licensed. **8,780+ GitHub stars**. Connects inputs/outputs across Kafka, AWS S3, HTTP APIs, SQL databases, and message queues with declarative YAML pipelines. 🌊
+  **High-performance stream processor and microservice integration tool**, Apache-2.0 licensed. **8,780+ GitHub_Stars**. Connects inputs/outputs across Kafka, AWS S3, HTTP APIs, SQL databases, and message queues with declarative YAML pipelines. 🌊
 
 - **[kgateway](https://github.com/kgateway-dev/kgateway)** [![Stars](https://img.shields.io/github/stars/kgateway-dev/kgateway?style=social&color=white)](https://github.com/kgateway-dev/kgateway/stargazers)  
-  **Kubernetes Native API & AI Gateway (formerly Gloo)**, Apache-2.0 licensed CNCF sandbox project. **5,699+ GitHub stars**. Implements Kubernetes Gateway API, Envoy control plane, MCP tool orchestration, and LLM prompt guardrails. ☸️
+  **Kubernetes Native API & AI Gateway (formerly Gloo)**, Apache-2.0 licensed CNCF sandbox project. **5,699+ GitHub_Stars**. Implements Kubernetes Gateway API, Envoy control plane, MCP tool orchestration, and LLM prompt guardrails. ☸️
 
 - **[KrakenD Community Edition](https://github.com/krakend/krakend-ce)** [![Stars](https://img.shields.io/github/stars/krakend/krakend-ce?style=social&color=white)](https://github.com/krakend/krakend-ce/stargazers)  
-  **Ultra-performance, database-free API Gateway**, Apache-2.0 licensed. **2,689+ GitHub stars**. Written in Go with **zero database dependencies**, delivering **+70,000 req/s** per node, under 50MB RAM, declarative JSON configuration, and Backend-For-Frontend (BFF) response aggregation. ⚡
+  **Ultra-performance, database-free API Gateway**, Apache-2.0 licensed. **2,689+ GitHub_Stars**. Written in Go with **zero database dependencies**, delivering **+70,000 req/s** per node, under 50MB RAM, declarative JSON configuration, and Backend-For-Frontend (BFF) response aggregation. ⚡
 
 - **[WSO2 API Manager](https://github.com/wso2/product-apim)** [![Stars](https://img.shields.io/github/stars/wso2/product-apim?style=social&color=white)](https://github.com/wso2/product-apim/stargazers)  
-  **Full-lifecycle open-source API management platform**, Apache-2.0 licensed. **1,034+ GitHub stars**. Enterprise API gateway, developer portal, API monetization, microgateway deployment, and key manager integrations. 💼
+  **Full-lifecycle open-source API management platform**, Apache-2.0 licensed. **1,034+ GitHub_Stars**. Enterprise API gateway, developer portal, API monetization, microgateway deployment, and key manager integrations. 💼
 
 - **[Couper](https://github.com/coupergateway/couper)** [![Stars](https://img.shields.io/github/stars/coupergateway/couper?style=social&color=white)](https://github.com/coupergateway/couper/stargazers)  
-  **Lightweight developer-focused API Gateway & BFF runtime**, MIT licensed. **97+ GitHub stars**. Unifies authentication (OAuth2, SAML2, JWT, OIDC), mTLS termination, and backend service proxying into simple HCL configuration files. 🛠️
+  **Lightweight developer-focused API Gateway & BFF runtime**, MIT licensed. **97+ GitHub_Stars**. Unifies authentication (OAuth2, SAML2, JWT, OIDC), mTLS termination, and backend service proxying into simple HCL configuration files. 🛠️
 
 - **[Aastro](https://github.com/voidrunner3074/aastro)** [![Stars](https://img.shields.io/github/stars/voidrunner3074/aastro?style=social&color=white)](https://github.com/voidrunner3074/aastro/stargazers)  
-  **Extensible Go-based API Gateway for fan-out responses**, open-source. **24+ GitHub stars**. Parallel upstream fan-outs, automatic response merging/namespacing, per-upstream circuit breakers, and partial content HTTP 206 responses. ⚡
+  **Extensible Go-based API Gateway for fan-out responses**, open-source. **24+ GitHub_Stars**. Parallel upstream fan-outs, automatic response merging/namespacing, per-upstream circuit breakers, and partial content HTTP 206 responses. ⚡
 
 - **[STOA Platform](https://github.com/stoa-platform/stoa)** [![Stars](https://img.shields.io/github/stars/stoa-platform/stoa?style=social&color=white)](https://github.com/stoa-platform/stoa/stargazers)  
-  **AI-native open-source API gateway for the MCP era**, Apache-2.0 licensed. **7+ GitHub stars**. Dedicated Model Context Protocol (MCP) gateway securing AI agent connections to internal enterprise tool microservices. 🤖
+  **AI-native open-source API gateway for the MCP era**, Apache-2.0 licensed. **7+ GitHub_Stars**. Dedicated Model Context Protocol (MCP) gateway securing AI agent connections to internal enterprise tool microservices. 🤖
 
 ---
 
@@ -138,8 +138,8 @@ Welcome to the definitive, SEO-optimized directory of **API management platforms
 Contributions are actively welcomed! Follow these simple steps to submit new API gateways, iPaaS platforms, or open-source integration repositories:
 
 1. 🍴 **Fork** this repository.
-2. 📝 **Add/edit** entries in `README.md` keeping formatting, star count badges, and tabular structure intact.
-3. 🔗 Include official project links, exact GitHub star count link (`stargazers`), license, and verified pricing/free tier limits.
+2. 📝 **Add/edit** entries in `README.md` keeping formatting, Stars_Count badges, and tabular structure intact.
+3. 🔗 Include official project links, exact GitHub Stars_Count link (`stargazers`), license, and verified pricing/free tier limits.
 4. 🚀 Open a **Pull Request** detailing your additions!
 
 ---
