@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1E1035" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="purple-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#F472B6" />
+    </linearGradient>
+
+    <!-- Filters for Glow Effect -->
+    <filter id="glow-light" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <filter id="glow-heavy" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes dash {
+        to {
+          stroke-dashoffset: -80;
+        }
+      }
+      @keyframes float-slow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes pulse-node {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.9; transform: scale(1.15); }
+      }
+      @keyframes shimmer {
+        0% { opacity: 0.4; }
+        50% { opacity: 1; }
+        100% { opacity: 0.4; }
+      }
+
+      .flow-line {
+        stroke-dasharray: 12, 12;
+        animation: dash 3s linear infinite;
+      }
+      .floating-pill {
+        animation: float-slow 5s ease-in-out infinite;
+      }
+      .node-pulse {
+        animation: pulse-node 3s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .shimmer-text {
+        animation: shimmer 4s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Dark Rect -->
+  <rect width="1200" height="360" rx="16" fill="url(#bg-grad)" stroke="#1F2937" stroke-width="2" />
+
+  <!-- Background Decorative Grid Lines -->
+  <g opacity="0.08" stroke="#FFFFFF" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="200" y1="0" x2="200" y2="360" />
+    <line x1="400" y1="0" x2="400" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="800" y1="0" x2="800" y2="360" />
+    <line x1="1000" y1="0" x2="1000" y2="360" />
+  </g>
+
+  <!-- Ambient Glowing Orbs in Background -->
+  <circle cx="150" cy="90" r="140" fill="#06B6D4" opacity="0.12" filter="url(#glow-heavy)" />
+  <circle cx="1050" cy="270" r="160" fill="#8B5CF6" opacity="0.15" filter="url(#glow-heavy)" />
+  <circle cx="600" cy="180" r="120" fill="#3B82F6" opacity="0.08" filter="url(#glow-heavy)" />
+
+  <!-- Background Dynamic Network Flow Lines (behind text) -->
+  <g opacity="0.4">
+    <!-- Top Flow Path -->
+    <path d="M 50 60 Q 300 20 600 60 T 1150 60" fill="none" stroke="url(#cyan-glow)" stroke-width="2" />
+    <path d="M 50 60 Q 300 20 600 60 T 1150 60" fill="none" stroke="#38BDF8" stroke-width="2" class="flow-line" />
+
+    <!-- Bottom Flow Path -->
+    <path d="M 50 300 Q 400 340 750 300 T 1150 300" fill="none" stroke="url(#purple-glow)" stroke-width="2" />
+    <path d="M 50 300 Q 400 340 750 300 T 1150 300" fill="none" stroke="#C084FC" stroke-width="2" class="flow-line" />
+  </g>
+
+  <!-- Background Floating Architecture Pills (Opacity low & positioned at edges to avoid obscuring text) -->
+  <g class="floating-pill" opacity="0.75">
+    <!-- Top Left Pill -->
+    <g transform="translate(60, 36)">
+      <rect width="130" height="28" rx="14" fill="#0F172A" stroke="#06B6D4" stroke-width="1.5" />
+      <text x="65" y="18" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">⚡ API GATEWAY</text>
+    </g>
+
+    <!-- Top Right Pill -->
+    <g transform="translate(1010, 36)">
+      <rect width="130" height="28" rx="14" fill="#0F172A" stroke="#8B5CF6" stroke-width="1.5" />
+      <text x="65" y="18" fill="#C084FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">🧩 OPEN iPAAS</text>
+    </g>
+
+    <!-- Bottom Left Pill -->
+    <g transform="translate(60, 296)">
+      <rect width="140" height="28" rx="14" fill="#0F172A" stroke="#3B82F6" stroke-width="1.5" />
+      <text x="70" y="18" fill="#60A5FA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">🕸️ SERVICE MESH</text>
+    </g>
+
+    <!-- Bottom Right Pill -->
+    <g transform="translate(1000, 296)">
+      <rect width="140" height="28" rx="14" fill="#0F172A" stroke="#EC4899" stroke-width="1.5" />
+      <text x="70" y="18" fill="#F472B6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">🤖 AI MCP GATEWAY</text>
+    </g>
+  </g>
+
+  <!-- Glowing Microservice Network Nodes (Background) -->
+  <g class="node-pulse">
+    <circle cx="280" cy="50" r="6" fill="#38BDF8" filter="url(#glow-light)" />
+    <circle cx="920" cy="50" r="6" fill="#C084FC" filter="url(#glow-light)" />
+    <circle cx="200" cy="310" r="6" fill="#60A5FA" filter="url(#glow-light)" />
+    <circle cx="980" cy="310" r="6" fill="#F472B6" filter="url(#glow-light)" />
+  </g>
+
+  <!-- FOREGROUND TEXT LAYER (Always rendered on top so title & subtitle never get hidden) -->
+  <!-- Main Title -->
+  <text x="600" y="145" text-anchor="middle" fill="url(#text-grad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="38" font-weight="900" letter-spacing="-0.5px" filter="url(#glow-light)">
+    Awesome API &amp; Microservices Integration
+  </text>
+
+  <!-- Secondary Title / Badge Accent -->
+  <g transform="translate(600, 185)">
+    <rect x="-180" y="-16" width="360" height="32" rx="16" fill="#1E293B" stroke="#475569" stroke-width="1" />
+    <text x="0" y="5" text-anchor="middle" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" letter-spacing="0.5px">
+      🚀 Enterprise iPaaS &bull; API Gateway &bull; Service Mesh &bull; AI Agents
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="600" y="245" text-anchor="middle" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">
+    Curated Directory of Commercial Platforms, Open-Source Infrastructure &amp; Automation Ecosystems
+  </text>
+
+  <!-- Bottom Metadata Badge -->
+  <text x="600" y="282" text-anchor="middle" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" class="shimmer-text">
+    📅 Updated October 2026 &bull; Verified Pricing &amp; Real-time GitHub Star Benchmarks
+  </text>
+</svg>

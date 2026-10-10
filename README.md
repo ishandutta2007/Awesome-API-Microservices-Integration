@@ -1,299 +1,174 @@
-# Awesome-API-Microservices-Integration
-
-# Awesome-API-Microservices-Integration 🔗 🧩
-
-
+# Awesome API & Microservices Integration 🔗 🧩
 
 <p align="center">
-
   <img src="assets/banner.svg" alt="Awesome API Microservices Integration Banner" width="100%">
-
 </p>
-
-
 
 <p align="center">
-
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
-
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-
-  <a href="https://github.com/ishandutta2007/Awesome-API-Microservices-Integration"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-API-Microservices-Integration?style=social" alt="GitHub_Stars"/></a>
-
+  <a href="https://github.com/ishandutta2007/Awesome-API-Microservices-Integration"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-API-Microservices-Integration?style=social" alt="GitHub Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-API-Microservices-Integration/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-API-Microservices-Integration?style=social" alt="GitHub Forks"/></a>
-
   <a href="https://github.com/ishandutta2007/Awesome-API-Microservices-Integration/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-API-Microservices-Integration?color=blue" alt="License"/></a>
-
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
-
 </p>
-
-
 
 ---
-
-
 
 ## 🌟 Top API & Microservices Integration Ecosystem
 
+**Curated Directory of Commercial iPaaS Platforms, Open-Source API Gateways & Service Mesh Tools** 🚀  
 
-
-**Curated List of Commercial iPaaS Platforms & Open-Source Microservices Integration Tools**  
-
-*Focused on API Gateway, Backend-for-Frontend, Service Mesh, Workflow Automation, Connector Frameworks & Self-Hosted Integration Platforms*
-
-
+*Focused on API Gateway, Backend-for-Frontend (BFF), Service Mesh, Workflow Automation, Model Context Protocol (MCP) AI Gateways, Connector Frameworks & Self-Hosted Integration Platforms.*
 
 **Last updated: October 2026** 📅
 
+---
 
+### 📌 Overview & SEO Summary 🔍
+
+Welcome to the definitive, SEO-optimized directory of **API management platforms**, **microservices integration tools**, **open-source iPaaS software**, and **service mesh architectures**. Whether evaluating enterprise commercial solutions (such as *Google Apigee X*, *AWS AppSync*, *MuleSoft Anypoint*, *Workato*, and *Kong Konnect*) or deploying privacy-first, self-hostable open-source frameworks (like *n8n*, *Traefik*, *Kong Gateway*, *Apache APISIX*, *KrakenD*, and *Activepieces*), this list provides benchmarked pricing, GitHub star metrics, free tier capabilities, and architectural insights.
+
+#### 💡 Key Architectural & Market Highlights:
+
+- ⚡ **KrakenD Community Edition** is the **only open-source API Gateway with zero database dependency** — completely **stateless, declarative, and linearly scalable**, processing **+70,000 req/sec per node** under **50MB RAM at 1,000+ concurrent connections**.
+- 🚀 **Apache APISIX** leads feature completeness with **100+ native plugins** (OIDC, rate limiting, security) and **native Model Context Protocol (MCP) support** for AI agents.
+- 🧩 **n8n** & **Activepieces** represent the modern **open-source iPaaS revolution**, providing self-hosted workflow automation, AI agent node orchestration, and MCP server integrations with **$0 execution fees** compared to SaaS quota locks.
+- 🦍 **Kong Gateway OSS** provides an Apache 2.0 open-source gateway core with **100+ plugins**, while enterprise features (OIDC, governance) transition to **Kong Konnect**.
+- 🎯 **Tyk Gateway** provides an **MPL-2.0 copyleft licensed** API gateway engine powering over **5M+ DockerHub pulls**.
 
 ---
 
+## 📑 Table of Contents 🧭
 
-
-### 📌 Overview & SEO Summary
-
-Welcome to the ultimate curated directory of **API and microservices integration platforms**, **open-source iPaaS frameworks**, and **service mesh tools**. Whether you are looking for enterprise-grade commercial solutions (such as *MuleSoft Anypoint*, *Boomi*, and *Workato*), or self-hostable open-source alternatives (like *Apache APISIX*, *KrakenD*, and *Activepieces*), this list covers category leaders, Backend-for-Frontend patterns, and privacy-respecting integration infrastructure.
-
-
-
-**Key Market Context:**
-
-- **KrakenD Community Edition** is the **only open-source API Gateway with zero database dependency** — **stateless, declarative, and scales linearly without coordination**, delivering **+70K reqs/s on a single instance** with **under 50MB memory at 1,000+ concurrent connections** .
-
-- **Apache APISIX** is the **most feature-complete open-source gateway**, with **100+ plugins** including authentication, rate limiting, and observability, and **native MCP support for AI agents** .
-
-- **Activepieces** is the **fastest-growing open-source iPaaS**, with **700+ app integrations**, **AI Agent builder**, **MCP server support** for Claude/Cursor, and **self-hosted unlimited executions** for **$0** — versus Zapier’s **$19.99/month for 750 tasks** .
-
-- **Kong Gateway OSS** is **Apache 2.0 licensed**, but **OIDC and advanced plugins are Enterprise-only** — the **plugin breadth leader** with **100+ plugins** .
-
-- **Tyk Gateway** is **MPL 2.0 licensed** — **file-level copyleft** that permits proprietary plugins, with **5M+ DockerHub pulls** and **6M+ GitHub stars** .
-
-
-
----
-
-
-
-## 📑 Table of Contents
-
-- [🏢 SaaS & Commercial Platforms](#-saas--commercial-platforms)
-
+- [🏢 Commercial & SaaS Integration Platforms](#-commercial--saas-integration-platforms)
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-
 - [🛠️ How to Contribute](#%EF%B8%8F-how-to-contribute)
-
 - [📊 Star History](#-star-history)
-
 - [🤝 Support & Sponsorship](#-support--sponsorship)
-
-- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
-
-
+- [⚠️ Disclaimer & Technical Notes](#%EF%B8%8F-disclaimer--technical-notes)
 
 ---
 
+## 🏢 Commercial & SaaS Integration Platforms
 
+**Market Size & Industry Dynamics:** The global Integration Platform as a Service (iPaaS) and API Management market is estimated at **$12.5 Billion in 2026** (projected to reach **$38.2 Billion by 2032** at a 21.5% CAGR). The market is **moderately fragmented** — while cloud hyperscalers (Google, AWS, Salesforce) capture enterprise infrastructure contracts, category specialists (Workato, Postman, Kong, Boomi) retain deep developer and workflow domain dominance, preventing winner-take-all consolidation. 📊
 
-## 🏢 SaaS / Commercial Platforms
+*Sorted by Company Size / Market Capitalization / Valuation (Descending)* 📉
 
-
-
-The API and microservices integration market spans **enterprise iPaaS platforms** (MuleSoft, Boomi, Workato) that provide **pre-built connectors, workflow automation, and governance**, **API management platforms** (Kong Konnect, Apigee, Tyk Cloud) that focus on **gateway, developer portal, and analytics**, and **low-code automation tools** (Postman, Workato) that emphasize **accessibility for business users**. **MuleSoft Anypoint** entry tier commits to **4–10 vCores** at **$4,800–$6,200 per vCore per year** . **Apigee X** starts at **~$1,500/month** with **$40K–$60K+ professional services** . **Kong Konnect** offers a **free tier with Kong Gateway OSS** .
-
-
-
-| SaaS / Commercial Platform | Company / Owner | Valuation / Market Cap | Standard Edition Starting Price | Free Tier / Free Trial Limits | Description |
-
+| SaaS / Commercial Platform | Company / Owner | Company Size / Valuation | Standard Edition Starting Price | Free Tier / Free Trial Limits | Key Capabilities & Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-
-| **[Salesforce MuleSoft Anypoint](https://www.mulesoft.com/)** ☁️ | Salesforce | ~$250 Billion | **$4,800–$6,200/vCore/year** (entry); **$3,200–$4,400** (negotiated)  | **30-day free trial of Anypoint Platform**  | **Enterprise integration platform** — **Anypoint Platform for API management, integration, and automation** . **Flex Gateway runs on customer infrastructure** (K8s) licensed per node, not per vCore . **Implementation costs 30–50% above license** . |
-
-| **[Kong Konnect](https://konghq.com/)** 🦍 | Kong Inc. | Private | **Enterprise pricing**; **Kong Gateway OSS free**  | **Free: Kong Gateway OSS**  | **Managed API gateway platform** — **Kong Gateway Enterprise and Konnect cloud** . **100+ plugins** (OIDC and advanced plugins = Enterprise-only) . **Service mesh and AI gateway capabilities** . |
-
-| **[Apigee X](https://cloud.google.com/apigee)** 🔵 | Google (Alphabet) | ~$2.0 Trillion | **~$1,500/month** (Standard tier)  | **No free tier**; trial available  | **Enterprise API management** — **Standard API proxy calls: $20/million; Extensible: $100/million** . **Professional services: $40K–$60K+** for implementation . **10–50ms added latency per call** . |
-
-| **[Boomi](https://boomi.com/)** 🟢 | Boomi | ~$4 Billion | **Custom enterprise pricing**  | **Free trial available**  | **Enterprise iPaaS** — **Unified integration platform** . **EDI, Integration, Flow, API Management, and Data Hub** in one platform . |
-
-| **[Workato](https://www.workato.com/)** 🟣 | Workato | ~$1.7 Billion | **Custom enterprise pricing**  | **Free trial available**  | **Enterprise automation platform** — **Recipe-based builder with large connector catalog** . **Sales-led and metered across several dimensions** . |
-
-| **[Postman](https://www.postman.com/)** 🟠 | Postman | ~$2 Billion | **Basic: $14/month**; **Professional: $29/month**  | **Free tier: limited**  | **API development and testing platform** — **API client, documentation, and collaboration** . **The most widely used API tool** . |
-
-| **[Tyk Cloud](https://tyk.io/)** 🎯 | Tyk | Private | **$79/month** (starting)  | **Free: 5M API calls/month**  | **Managed API gateway** — **Open-source gateway with cloud management** . **REST, GraphQL, TCP, and gRPC support** . **MPL 2.0 licensed gateway** . |
-
-| **[AWS AppSync](https://aws.amazon.com/appsync/)** ☁️ | Amazon | ~$2.0 Trillion | **$4.00/million queries** (after free tier)  | **Free tier: 250,000 queries/month for 12 months**  | **Managed GraphQL service** — **Real-time data and offline capabilities** . **Connects to DynamoDB, Lambda, and HTTP APIs** . |
-
-| **[Gravitee](https://www.gravitee.io/)** 🔴 | Gravitee | Private | **Custom enterprise pricing**  | **Free: Gravitee OSS**  | **Event-native API management** — **API gateway, developer portal, and analytics** . **Supports REST, GraphQL, WebSocket, and gRPC** . |
-
-
+| **[Apigee X](https://cloud.google.com/apigee)** 🔵 | Google (Alphabet) | **~$2.0 Trillion** | **$1,500/month** (Standard Pay-As-You-Go org) | **90-Day Free Trial** ($300 GCP credit limit) | **Enterprise API Management Platform** — High-scale API proxies, developer portal, traffic management, rate-limiting, security policies, and deep Google Cloud AI analytics integration. |
+| **[AWS AppSync](https://aws.amazon.com/appsync/)** ☁️ | Amazon | **~$2.0 Trillion** | **$4.00 per 1M GraphQL ops** | **Free Forever:** 250,000 GraphQL ops/month (First 12 months) | **Fully Managed GraphQL & Pub/Sub API Service** — Real-time data synchronization, offline data access, serverless WebSocket connections, and native integration with DynamoDB & Lambda. |
+| **[Salesforce MuleSoft Anypoint](https://www.mulesoft.com/)** ☁️ | Salesforce | **~$250 Billion** | **$400/month** ($4,800/year base vCore package) | **30-Day Free Trial** (Includes 1 vCore & Anypoint Studio) | **Enterprise iPaaS & API Lifecycle Suite** — Pre-built enterprise connectors, ESB integration pattern, Flex Gateway for K8s microservices, data mapping, and Anypoint Exchange governance. |
+| **[Workato](https://www.workato.com/)** 🟣 | Workato, Inc. | **~$5.7 Billion** | **$833/month** ($10,000/year base workspace) | **14-Day Free Trial** (Full access upon sales request) | **Enterprise Automation & iPaaS Platform** — Low-code recipe builder, 1,000+ app connectors, enterprise workflow orchestrations, AI-assisted data transformations, and bot automations. |
+| **[Postman Platform](https://www.postman.com/)** 🟠 | Postman, Inc. | **~$5.6 Billion** | **$14/user/month** (Basic plan, annual billing) | **Free Forever:** 3 team members, 1,000 API calls/mo | **API Development & Collaboration Hub** — Comprehensive API client, mock servers, automated testing suites, OpenAPI specification editor, and team workspace collaboration. |
+| **[Boomi iPaaS](https://boomi.com/)** 🟢 | Boomi (Francisco Partners) | **~$4.0 Billion** | **$549/month** (Base integration edition) | **30-Day Free Trial** (Unlimited integration testing) | **Cloud Integration & EDI Platform** — Visual data integration, master data hub, EDI partner management, workflow automation, and cloud/on-premise integration runtime (Atom). |
+| **[Kong Konnect](https://konghq.com/)** 🦍 | Kong Inc. | **~$1.4 Billion** | **$250/month** (Plus plan base tier) | **Free Forever:** 1 control plane, 50,000 requests/mo | **SaaS API Gateway & Service Mesh Control Plane** — Multi-cloud API gateway control plane, developer portal, API analytics, global plugins, and zero-trust mesh routing. |
+| **[Tyk Cloud](https://tyk.io/)** 🎯 | Tyk Technologies | **~$120 Million** | **$79/month** (Launch plan edition) | **Free Forever:** 5,000,000 API requests/mo | **Managed Cloud API Gateway** — Open-source MPL 2.0 gateway core with cloud management console, REST, GraphQL, gRPC support, developer portal, and key management. |
+| **[Gravitee Cloud](https://www.gravitee.io/)** 🔴 | Gravitee.io | **~$75 Million** | **$299/month** (Cloud Team edition) | **14-Day Free Trial** & Free OSS self-hosted edition | **Event-Native API Management** — Unified API management for REST, gRPC, GraphQL, WebSocket, Kafka, and MQTT protocols with event-driven security policies. |
 
 ---
-
-
 
 ## 🔓 Open-Source GitHub Projects
 
+*Sorted by GitHub Star Count (Descending)* 🌟
 
+- **[n8n](https://github.com/n8n-io/n8n)** [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
+  **Fair-code workflow automation and open-source iPaaS platform**, Sustainable Use License. **206,890+ GitHub stars** — **the most popular open-source workflow automation engine**. **400+ native integrations**, visual node-based editor, custom JavaScript/Python code execution, AI Agent nodes, LangChain support, and self-hosted privacy compliance. 🧩
 
-*Sorted by GitHub_Stars_Count (Descending)* 🌟
-
-
-
-- **[Apache APISIX](https://github.com/apache/apisix)** [![Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)  
-
-  **Cloud-Native API Gateway and AI Gateway**, Apache-2.0 licensed. **15,352 GitHub stars** — **the Apache Software Foundation top-level project** . **Built on NGINX and LuaJIT** . **Rich authentication & authorization**: **key-auth, JWT, basic-auth, OIDC (Auth0, Okta)** . **IP whitelist/blacklist, limit-req, limit-count, CORS, URI blocker, request validator, CSRF** . **Anti-ReDoS built-in** . **Zipkin, SkyWalking, Prometheus, Consul, Nacos, Eureka, Zookeeper** . **Native MCP support for AI agents**  . **The most feature-complete open-source gateway** . 🚀
-
-
-
-- **[Kong Gateway](https://github.com/Kong/kong)** [![Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)  
-
-  **The most widely deployed open-source API gateway**, Apache-2.0 licensed. **Built on NGINX/OpenResty with PostgreSQL or DB-less mode** . **100+ plugins** for authentication, rate limiting, and API management . **Full API lifecycle: developer portal, analytics, transformation** . **Limitations: PostgreSQL dependency adds operational overhead, OIDC and advanced plugins are Enterprise-only** . **The plugin breadth leader**  . 🦍
-
-
-
-- **[KrakenD Community Edition](https://github.com/krakend/krakend-ce)** [![Stars](https://img.shields.io/github/stars/krakend/krakend-ce?style=social&color=white)](https://github.com/krakend/krakend-ce/stargazers)  
-
-  **High-performance, stateless, declarative API Gateway written in Go**, Apache-2.0 licensed. **The only open-source gateway with no database dependency** — **stateless design means every node operates independently without coordination or centralized persistence** . **+70K reqs/s on a single instance** . **Under 50MB memory at 1,000+ concurrent connections** . **True linear scalability** . **Native multi-backend aggregation (BFF pattern)** . **Declarative JSON with hot-reload** . **The best gateway for API aggregation and operational simplicity**  . 🚀
-
-
+- **[Caddy Server](https://github.com/caddyserver/caddy)** [![Stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)  
+  **Fast, multi-platform open-source web server & API reverse proxy with automatic HTTPS**, Apache-2.0 licensed. **77,673+ GitHub stars**. Written in Go with zero external dependencies, automatic Let's Encrypt TLS cert management, dynamic HTTP/3 support, and JSON/Caddyfile configuration. 🔒
 
 - **[Traefik](https://github.com/traefik/traefik)** [![Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
+  **Cloud-native edge router and application proxy**, MIT licensed. **65,140+ GitHub stars**. Auto-discovers microservice backends (Kubernetes, Docker, Swarm, Consul), dynamic certificate management via Let's Encrypt ACME, middleware rate-limiting, and circuit breakers. 🚦
 
-  **Cloud-native application proxy**, MIT licensed. **Written in Go with provider integrations** for Docker, Kubernetes, and Consul . **Automatic TLS certificate provisioning via ACME** . **Middleware system for authentication, rate limiting, header manipulation, and circuit breaking** . **The simplest cloud-native gateway** . 🚦
+- **[Huginn](https://github.com/huginn/huginn)** [![Stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers)  
+  **Open-source agentic event-driven workflow automation system**, MIT licensed. **50,034+ GitHub stars**. Creates automated web-scraping agents, webhook listeners, data transformation pipelines, and scheduled event triggers running on custom servers. 🤖
 
+- **[Kong Gateway](https://github.com/Kong/kong)** [![Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)  
+  **The cloud-native API gateway leader**, Apache-2.0 licensed core. **44,258+ GitHub stars**. Built on OpenResty/NGINX with Lua plugins, declarative DB-less or PostgreSQL persistent configuration, rate limiting, authentication plugins, and gRPC routing. 🦍
 
-
-- **[kgateway](https://github.com/kgateway-dev/kgateway)** [![Stars](https://img.shields.io/github/stars/kgateway-dev/kgateway?style=social&color=white)](https://github.com/kgateway-dev/kgateway/stargazers)  
-
-  **The most widely deployed gateway in Kubernetes for microservices and AI agents**, Apache-2.0 licensed. **Dual control plane implementing the Kubernetes Gateway API for both Envoy and agentgateway** . **Omni-directional API connectivity spanning traditional HTTP/gRPC workloads to advanced AI agent orchestration** . **CNCF Sandbox project** (formerly Gloo) . **MCP and Agent-to-Agent Gateway** for federating Model Context Protocol tool services . **AI Gateway for LLM consumption** with prompt guards . **The most mature cloud-native API gateway**  . ☸️
-
-
-
-- **[Activepieces](https://github.com/activepieces/activepieces)** [![Stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)  
-
-  **Open-source AI-first automation platform (Zapier alternative)**, MIT licensed. **700+ app integrations** including Slack, Gmail, HubSpot, Salesforce, and Notion . **AI Agent builder** that connects enterprise apps . **280+ pieces as MCP servers** supporting Claude/Cursor . **Code execution with NPM packages and AI-assisted coding** . **Human-in-the-loop with approval workflows** . **Self-hosted unlimited executions for $0** — versus Zapier’s **$19.99/month for 750 tasks** . **The fastest-growing open-source iPaaS**  . 🧩
-
-
-
-- **[Tyk Gateway](https://github.com/TykTechnologies/tyk)** [![Stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers)  
-
-  **Enterprise-level open source API gateway at no cost**, MPL-2.0 licensed. **6M+ GitHub stars, 5M+ DockerHub pulls** . **Supports REST, GraphQL, TCP, and gRPC** . **Built for CI/CD integration and open standards** . **No vendor lock-in** . **MPL 2.0 file-level copyleft permits proprietary plugins** . **The best balance of freedom and enterprise features**  . 🎯
-
-
+- **[Istio](https://github.com/istio/istio)** [![Stars](https://img.shields.io/github/stars/istio/istio?style=social&color=white)](https://github.com/istio/istio/stargazers)  
+  **Industry-standard open-source service mesh**, Apache-2.0 licensed CNCF graduated project. **38,429+ GitHub stars**. Manages microservice-to-microservice traffic, mTLS encryption, zero-trust security policies, telemetry, and Envoy proxy data plane orchestration. 🕸️
 
 - **[Envoy Proxy](https://github.com/envoyproxy/envoy)** [![Stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)  
+  **High-performance C++ edge/middle/service proxy**, Apache-2.0 licensed CNCF graduated project. **29,056+ GitHub stars**. The foundational data plane for Istio, kgateway, and modern cloud-native service meshes with xDS dynamic API control plane. 🔷
 
-  **Cloud-native high-performance edge/middle/service proxy**, Apache-2.0 licensed. **CNCF graduated project** — **the data plane for Istio and modern service meshes** . **Filter-chain model with built-in HTTP/network filters and Wasm extensions** . **xDS discovery APIs for dynamic configuration** . **The service mesh data plane standard** . 🔷
+- **[Dapr](https://github.com/dapr/dapr)** [![Stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers)  
+  **Distributed Application Runtime for microservices**, Apache-2.0 licensed CNCF project. **26,136+ GitHub stars**. Provides event-driven pub/sub messaging, state management, service invocation building blocks, and actor framework for polyglot microservices. ⚡
 
-
-
-- **[Couper](https://github.com/coupergateway/couper)** [![Stars](https://img.shields.io/github/stars/coupergateway/couper?style=social&color=white)](https://github.com/coupergateway/couper/stargazers)  
-
-  **Lightweight API gateway for developers**, open-source. **Designed to support developers in building and operating API-driven Web projects** . **Centralized access-control layer**: Basic-Auth, JWT, SAML2, OAuth2, OpenID Connect . **mTLS support (server and backend)** . **Runs on Linux, macOS, Windows, Docker, and Kubernetes**  . 🛠️
-
-
-
-- **[Aastro](https://github.com/voidrunner3074/aastro)** [![Stars](https://img.shields.io/github/stars/voidrunner3074/aastro?style=social&color=white)](https://github.com/voidrunner3074/aastro/stargazers)  
-
-  **Extensible API Gateway written in Go**, open-source. **Parallel fan-out to any number of upstreams** bounded by `parallel_upstreams` . **`merge`, `array`, or `namespaced` response strategies** . **Per-upstream timeouts, retries, and circuit breakers** . **Partial responses with `206 Partial Content` and `X-Partial-Errors` header** when `best_effort` is on . **Everything described in YAML — no code required to add a route**  . ⚡
-
-
-
-- **[STOA Platform](https://github.com/stoa-platform/stoa)** [![Stars](https://img.shields.io/github/stars/stoa-platform/stoa?style=social&color=white)](https://github.com/stoa-platform/stoa/stargazers)  
-
-  **AI-native open-source API gateway for the MCP era**, Apache-2.0 licensed. **MCP Gateway for secure AI agent access to enterprise tools** . **Multi-tenant isolation with RBAC (6 personas, 12 scopes)** . **GitOps-native with ArgoCD support** . **35 MCP tools for platform operations** . **European sovereignty and zero vendor lock-in** . **The first open-source gateway with native MCP support**  . 🤖
-
-
+- **[Activepieces](https://github.com/activepieces/activepieces)** [![Stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)  
+  **Open-source AI-first automation platform & Zapier alternative**, MIT licensed. **24,975+ GitHub stars**. 700+ app connectors, AI Agent builder, MCP tool support for Claude/Cursor, NPM custom code execution, and self-hosted unlimited executions for $0. 🧩
 
 - **[Node-RED](https://github.com/node-red/node-red)** [![Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)  
+  **Low-code event-driven integration tool**, Apache-2.0 licensed OpenJS Foundation project. **23,731+ GitHub stars**. Browser-based flow editor for wiring APIs, IoT devices, microservice webhooks, and enterprise data streams. 🔴
 
-  **Low-code programming for event-driven applications**, Apache-2.0 licensed. **20K+ GitHub stars** — **the most popular open-source IoT and event routing tool** . **Browser-based flow editor** for wiring together devices, APIs, and services . **The standard for event-driven microservices integration**  . 🔴
+- **[Apache APISIX](https://github.com/apache/apisix)** [![Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)  
+  **Dynamic, high-performance API Gateway and AI Gateway**, Apache-2.0 licensed. **17,210+ GitHub stars**. Built on NGINX + LuaJIT with etcd dynamic clustering, 100+ native plugins, OIDC authentication, rate limiting, and native Model Context Protocol (MCP) support. 🚀
 
+- **[Tyk Gateway](https://github.com/TykTechnologies/tyk)** [![Stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers)  
+  **Open-source enterprise API gateway**, MPL-2.0 copyleft licensed. **10,857+ GitHub stars** with over 5M+ DockerHub pulls. Written in Go supporting REST, GraphQL, gRPC, and custom middleware without vendor lock-in. 🎯
 
+- **[Redpanda Connect (Benthos)](https://github.com/redpanda-data/connect)** [![Stars](https://img.shields.io/github/stars/redpanda-data/connect?style=social&color=white)](https://github.com/redpanda-data/connect/stargazers)  
+  **High-performance stream processor and microservice integration tool**, Apache-2.0 licensed. **8,780+ GitHub stars**. Connects inputs/outputs across Kafka, AWS S3, HTTP APIs, SQL databases, and message queues with declarative YAML pipelines. 🌊
+
+- **[kgateway](https://github.com/kgateway-dev/kgateway)** [![Stars](https://img.shields.io/github/stars/kgateway-dev/kgateway?style=social&color=white)](https://github.com/kgateway-dev/kgateway/stargazers)  
+  **Kubernetes Native API & AI Gateway (formerly Gloo)**, Apache-2.0 licensed CNCF sandbox project. **5,699+ GitHub stars**. Implements Kubernetes Gateway API, Envoy control plane, MCP tool orchestration, and LLM prompt guardrails. ☸️
+
+- **[KrakenD Community Edition](https://github.com/krakend/krakend-ce)** [![Stars](https://img.shields.io/github/stars/krakend/krakend-ce?style=social&color=white)](https://github.com/krakend/krakend-ce/stargazers)  
+  **Ultra-performance, database-free API Gateway**, Apache-2.0 licensed. **2,689+ GitHub stars**. Written in Go with **zero database dependencies**, delivering **+70,000 req/s** per node, under 50MB RAM, declarative JSON configuration, and Backend-For-Frontend (BFF) response aggregation. ⚡
+
+- **[WSO2 API Manager](https://github.com/wso2/product-apim)** [![Stars](https://img.shields.io/github/stars/wso2/product-apim?style=social&color=white)](https://github.com/wso2/product-apim/stargazers)  
+  **Full-lifecycle open-source API management platform**, Apache-2.0 licensed. **1,034+ GitHub stars**. Enterprise API gateway, developer portal, API monetization, microgateway deployment, and key manager integrations. 💼
+
+- **[Couper](https://github.com/coupergateway/couper)** [![Stars](https://img.shields.io/github/stars/coupergateway/couper?style=social&color=white)](https://github.com/coupergateway/couper/stargazers)  
+  **Lightweight developer-focused API Gateway & BFF runtime**, MIT licensed. **97+ GitHub stars**. Unifies authentication (OAuth2, SAML2, JWT, OIDC), mTLS termination, and backend service proxying into simple HCL configuration files. 🛠️
+
+- **[Aastro](https://github.com/voidrunner3074/aastro)** [![Stars](https://img.shields.io/github/stars/voidrunner3074/aastro?style=social&color=white)](https://github.com/voidrunner3074/aastro/stargazers)  
+  **Extensible Go-based API Gateway for fan-out responses**, open-source. **24+ GitHub stars**. Parallel upstream fan-outs, automatic response merging/namespacing, per-upstream circuit breakers, and partial content HTTP 206 responses. ⚡
+
+- **[STOA Platform](https://github.com/stoa-platform/stoa)** [![Stars](https://img.shields.io/github/stars/stoa-platform/stoa?style=social&color=white)](https://github.com/stoa-platform/stoa/stargazers)  
+  **AI-native open-source API gateway for the MCP era**, Apache-2.0 licensed. **7+ GitHub stars**. Dedicated Model Context Protocol (MCP) gateway securing AI agent connections to internal enterprise tool microservices. 🤖
 
 ---
 
+## 🛠️ How to Contribute 🤝
 
+Contributions are actively welcomed! Follow these simple steps to submit new API gateways, iPaaS platforms, or open-source integration repositories:
 
-## 🛠️ How to Contribute
-
-
-
-Contributions are welcome! Follow these steps to submit new API and microservices integration platforms or open-source integration software:
-
-
-
-1. 🍴 **Fork** the repository.
-
-2. 📝 **Add/edit** entries in `README.md` maintaining table/list structure and formatting.
-
-3. 🔗 Include project title, official website/GitHub link, exact Stars_Count, license, and brief description.
-
-4. 🚀 Submit a **Pull Request** with a descriptive summary of your changes.
-
-
+1. 🍴 **Fork** this repository.
+2. 📝 **Add/edit** entries in `README.md` keeping formatting, star count badges, and tabular structure intact.
+3. 🔗 Include official project links, exact GitHub star count link (`stargazers`), license, and verified pricing/free tier limits.
+4. 🚀 Open a **Pull Request** detailing your additions!
 
 ---
-
-
 
 ## 📊 Star History
 
-
-
 [![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-API-Microservices-Integration&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-API-Microservices-Integration&type=date&legend=top-left)
 
+---
 
+## 🤝 Support & Sponsorship 💖
+
+If this curated directory helps your team select the right API gateway or integration platform:
+
+- ⭐ **Star** this repo on GitHub to boost visibility!
+- 🔀 **Fork** and share with integration engineers, platform teams, and open-source advocates.
+- ☕ **Sponsor**: Support ongoing open-source research and maintenance via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
 
 ---
 
+## ⚠️ Disclaimer & Technical Notes ℹ️
 
-
-## 🤝 Support & Sponsorship
-
-
-
-If you find this API and microservices integration repository useful, please consider supporting the project:
-
-
-
-- ⭐ **Star** this repository to increase visibility!
-
-- 🔀 **Fork** and share with fellow integration engineers, platform teams, and open-source advocates.
-
-- ☕ **Sponsor & Buy Me a Coffee**: Support ongoing open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
-
-
+- **Community Curation:** Information is community-maintained and provided for educational and decision-support purposes. ℹ️
+- **Database Dependency & Operational Overhead:** **KrakenD CE** is the only open-source API gateway operating with zero persistent state or database dependencies, eliminating PostgreSQL/etcd management overhead. **Kong Gateway OSS** requires PostgreSQL or DB-less mode, while **Apache APISIX** requires etcd.
+- **Enterprise Licensing:** **Kong Gateway OSS** core is Apache 2.0, but OIDC and advanced security plugins require Enterprise licenses. **Apache APISIX** provides full open-source plugin access without enterprise gating. **Tyk** uses an MPL 2.0 license permitting proprietary plugin extensions.
+- **Enterprise Pricing:** Enterprise SaaS starting prices (e.g. MuleSoft, Apigee X) often involve mandatory professional services, cloud infrastructure usage, and node/vCore scaling factors beyond standard base plan costs.
 
 ---
-
-
-
-## ⚠️ Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement. ℹ️
-
-- **KrakenD CE is the only open-source gateway with zero database dependency** — **stateless design means no PostgreSQL, no etcd, no coordination** . **+70K reqs/s on a single instance with under 50MB memory**  . **This is the best choice for teams that want infrastructure-as-code without operational database overhead**.
-
-- **Kong Gateway OSS is Apache-2.0, but OIDC and advanced plugins are Enterprise-only** . **Apache APISIX is fully Apache-2.0 with no feature gating** — the **most permissively licensed enterprise-grade gateway** . **Tyk Gateway is MPL-2.0 and free forever**  .
-
-- **MuleSoft entry tier commits to 4–10 vCores at $4,800–$6,200/vCore/year** — **Flex Gateway is licensed per gateway node, not per vCore** . **Apigee X requires $40K–$60K+ professional services** for implementation, **adds 10–50ms latency per call**, and **GCP infrastructure costs are billed separately** .
-
-- **Activepieces is the fastest-growing open-source iPaaS** — **700+ integrations, AI Agent builder, MCP server support, and self-hosted unlimited executions for $0** — versus **Zapier’s $19.99/month for 750 tasks**  .
-
-- **Open-source integration tools are not turnkey** — **Kong requires PostgreSQL or DB-less configuration and plugin management** . **APISIX requires etcd and plugin configuration** . **Activepieces requires Docker and database setup** . **Always validate gateway performance, failover, and connector reliability with a proof-of-concept** before production deployment. 🔗
-
-
-
----
-
-
 
 <p align="center">
-
-  <b>Made with ❤️ for integration engineers, platform teams, and open-source API advocates.</b>
-
+  <b>Made with ❤️ for integration engineers, API architects, and open-source platform teams.</b>
 </p>
